@@ -43,7 +43,7 @@
     ```
     - Make sure the Neo4j service is running before starting the app.
 
-## Getting Started
+## 4. Getting Started
 - Run the development server:
 ```bash
 npm run dev
