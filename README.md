@@ -7,13 +7,20 @@
 - Key Features:
     - Graph Management: Create, import (JSON), and export (JSON, GraphML, PNG) graphs.
     - Node & Edge Operations: Add, delete, and edit nodes and edges, including their attributes.
-    - Editing Tools: Undo/redo actions and manual drag for repositioning nodes.
+    - Editing Tools: Undo/redo actions and manual drag for repositioning nodes and clear the graph.
     - Layouts & Visualization: Switch between force-directed and hierarchical layouts; zoom, pan, and enable dark mode.
     - Styling & Filtering: Apply rule-based styling by attributes, filter properties, and search text.
     - Graph Analysis: Compute PageRank, Detect Communities, identify Connected Components, and calculate node Degrees.
     - Advanced Operations: Subgraph extraction, shortest-path finding, neighborhood expansion, find all children of a hierarchical graph, and subtract subgraphs.
-    - Database Integration: Connect and interact with a Neo4j database.
+    - Database Integration: Connect and interact with a Neo4j database. Auto-save is supported.
 
+### - Updates After Final Demo:
+- Following feedback from the final demo, the application was improved so that when a shortest path is found, all nodes and edges along the path are highlighted, and a notification shows the total cost, for example:
+    ```
+    Found path from "5" to "11" with total cost = 7
+    ```
+- If you do not see the notifications, please refresh the browser and try again. You will see several helpful and visually appealing notifications throughout the application.
+    
 ## 2. Technical Stack
 - Languages & Frameworks: TypeScript, Next.js
 - Testing: Jest.js
