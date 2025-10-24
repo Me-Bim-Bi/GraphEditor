@@ -29,10 +29,10 @@
     ```
 - Set up a Neo4j database:
     - Install Neo4j Desktop or use Neo4j Aura (cloud).
-    - Create a database and set up a .env file in the project root with the credentials:
+    - Create a database and change username, password in file .env in the project root with the credentials:
     ```
     NEO4J_USERNAME=neo4j
-    NEO4J_PASSWORD=abcd1234
+    NEO4J_PASSWORD=yourpassword
     ```
     - Make sure the Neo4j service is running before starting the app.
 
